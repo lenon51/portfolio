@@ -14,4 +14,12 @@ A meta desse projeto é consultar todos os ônibus que chegam e partem dos metr�
 * Consultar o letreiro dos ônibus que tem como destino ou partida as estações de metrô.
 * Criar visualizações para representar esses dados de forma intuitiva.
 
-##
+## Ferramentas
+* Python
+* Biblioteca folium
+
+
+## Visualizações
+
+* Utilizando o folium
+![Folium](https://github.com/lenon51/portfolio/blob/master/sptrans/folium.png?raw=true)
