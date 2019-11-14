@@ -4,7 +4,7 @@
 
 ## Resumo
 
-A meta desse projeto é consultar todos os ônibus que chegam e partem dos metrôs. Para isso consultei a API que a SPTrans disponibiliza para consultar a localização dos ônibus.
+A meta desse projeto é consultar todos os ônibus que chegam e partem dos metrôs. Para isso foi utilizada a API que a SPTrans disponibiliza para consultar a localização dos ônibus.
 
 ---
 
