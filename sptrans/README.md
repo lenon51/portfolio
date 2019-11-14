@@ -15,11 +15,12 @@ A meta desse projeto é consultar todos os ônibus que chegam e partem dos metr�
 * Criar visualizações para representar esses dados de forma intuitiva.
 
 ## Ferramentas
-* Python
-* Biblioteca folium
+* ** ``python`` **
+* ** ``folium`` **
+* ** ``api sptrans`` **
 
 
 ## Visualizações
 
-* Utilizando o folium
+* Localização de todos os ônibus online
 ![Folium](https://github.com/lenon51/portfolio/blob/master/sptrans/folium.png?raw=true)
