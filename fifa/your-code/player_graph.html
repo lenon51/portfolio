@@ -1,0 +1,118 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.css" type="text/css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis-network.min.js"> </script>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+
+<style type="text/css">
+
+        #mynetwork {
+            width: 800;
+            height: 800;
+            background-color: #ffffff;
+            border: 1px solid lightgray;
+            position: relative;
+            float: left;
+        }
+
+        
+
+        
+
+        
+</style>
+
+</head>
+
+<body>
+<div id = "mynetwork"></div>
+
+
+<script type="text/javascript">
+
+    // initialize global variables.
+    var edges;
+    var nodes;
+    var network; 
+    var container;
+    var options, data;
+
+    
+    // This method is responsible for drawing the graph, returns the drawn network
+    function drawGraph() {
+        var container = document.getElementById('mynetwork');
+        
+        
+
+        // parsing and collecting nodes and edges from the python
+        nodes = new vis.DataSet([{"color": "blue", "id": 0, "image": "https://cdn.sofifa.org/players/4/19/158023.png", "label": "L. Messi", "shape": "image", "size": 40}, {"color": "blue", "id": 1, "image": "https://cdn.sofifa.org/players/4/19/20801.png", "label": "Cristiano Ronaldo", "shape": "image", "size": 40}, {"color": "blue", "id": 2, "image": "https://cdn.sofifa.org/players/4/19/190871.png", "label": "Neymar Jr", "shape": "image", "size": 40}, {"color": "blue", "id": 3, "image": "https://cdn.sofifa.org/players/4/19/176580.png", "label": "L. Su\u00e1rez", "shape": "image", "size": 40}, {"color": "blue", "id": 4, "image": "https://cdn.sofifa.org/players/4/19/192985.png", "label": "K. De Bruyne", "shape": "image", "size": 40}, {"color": "blue", "id": 5, "image": "https://cdn.sofifa.org/players/4/19/183277.png", "label": "E. Hazard", "shape": "image", "size": 40}, {"color": "blue", "id": 6, "image": "https://cdn.sofifa.org/players/4/19/200389.png", "label": "J. Oblak", "shape": "image", "size": 40}, {"color": "blue", "id": 7, "image": "https://cdn.sofifa.org/players/4/19/177003.png", "label": "L. Modri\u0107", "shape": "image", "size": 40}, {"color": "blue", "id": 8, "image": "https://cdn.sofifa.org/players/4/19/188545.png", "label": "R. Lewandowski", "shape": "image", "size": 40}, {"color": "blue", "id": 9, "image": "https://cdn.sofifa.org/players/4/19/182493.png", "label": "D. God\u00edn", "shape": "image", "size": 40}]);
+        edges = new vis.DataSet([{"arrows": "to", "from": 2, "to": 0}, {"arrows": "to", "from": 2, "to": 1}, {"arrows": "to", "from": 3, "to": 0}, {"arrows": "to", "from": 3, "to": 1}, {"arrows": "to", "from": 4, "to": 0}, {"arrows": "to", "from": 4, "to": 1}, {"arrows": "to", "from": 5, "to": 0}, {"arrows": "to", "from": 5, "to": 1}, {"arrows": "to", "from": 6, "to": 0}, {"arrows": "to", "from": 6, "to": 1}, {"arrows": "to", "from": 7, "to": 0}, {"arrows": "to", "from": 7, "to": 1}, {"arrows": "to", "from": 8, "to": 0}, {"arrows": "to", "from": 8, "to": 1}, {"arrows": "to", "from": 9, "to": 0}, {"arrows": "to", "from": 9, "to": 1}]);
+
+        // adding nodes and edges to the graph
+        data = {nodes: nodes, edges: edges};
+
+        var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": false,
+            "type": "continuous"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "layout": {
+        "hierarchical": {
+            "blockShifting": true,
+            "edgeMinimization": true,
+            "enabled": true,
+            "levelSeparation": 150,
+            "parentCentralization": true,
+            "sortMethod": "hubsize",
+            "treeSpacing": 200
+        },
+        "improvedLayout": true,
+        "randomSeed": 0
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+        
+        
+
+        
+
+        network = new vis.Network(container, data, options);
+
+        
+
+
+        
+
+        return network;
+
+    }
+
+    drawGraph();
+
+</script>
+</body>
+</html>
