@@ -22,5 +22,12 @@ A meta desse projeto é consultar todos os ônibus que chegam e partem dos metr�
 
 ## Visualizações
 
+* Quantidade de ônibus chegando/saindo das estações de metrô agrupados pela cor da linha do metrô
+![Folium](https://github.com/lenon51/portfolio/blob/master/sptrans/qtd_linha_metro.png?raw=true)
+
 * Localização de todos os ônibus online
 ![Folium](https://github.com/lenon51/portfolio/blob/master/sptrans/folium.png?raw=true)
+
+
+* Quantidade de ônibus chegando/saindo das estações de metrô
+![Folium](https://github.com/lenon51/portfolio/blob/master/sptrans/qtd_onibus.png?raw=true)
