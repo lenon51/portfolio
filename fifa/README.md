@@ -1,52 +1,34 @@
-![IronHack Logo](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_d5c5793015fec3be28a63c4fa3dd4d55.png)
+![Fifa Logo](https://github.com/lenon51/portfolio/blob/master/fifa/fifa-19.png?raw=true)
 
-# Project: Visualizing Real World Data
+# Projeto: Consultar a localização dos ônibus
 
-## Overview
+## Resumo
 
-The goal of this project is to practice creating and interpreting different types of visualizations using real world data.
-
-**You will be working individually for this project**, but we'll be guiding you along the process and helping you as you go. 
+Consultar os jogadores mais fortes do FIFA 19
 
 ---
 
-## Technical Requirements
+## Lógica
 
-The technical requirements for this project are as follows:
+* Consultar e salvar em um csv todos os jogadores do Fifa 19. Foi usado como base o site <a href='http://www.sofifa.com'>sofifa.com</a>;
+* Criar visualizações para representar esses dados de forma intuitiva.
 
- - Select a dataset from a public source.
- - Create a Jupyter noteboosk to analyze the data
- - Using your data, create a minimum of one scatter plot, one histogram, one box plot and one bar graph (you can add more than one visualization of each type of you choose). Graphs should contain the proper labeling of the x and y axis when appropriate as well as a title for the graph.
- - Explain what insight or information is inferred from these visualizations. The explanation should be in the notebook in markdown cells.
+## Ferramentas
+* ** ``python`` **
+* ** ``pyvis`` **
+* ** ``sofifa.com`` **
 
-## Necessary Deliverables
 
-The following deliverables should be pushed to your Github repo for this chapter.
+## Visualizações
 
-- **A Jupyter notebook** containing your analysis and the code you used to obtain this analysis.
-- **A data folder** containing your data set.
+* Quantidade de jogadores por país
+![Jogadores](https://github.com/lenon51/portfolio/blob/master/fifa/quantity.png?raw=true)
 
-## Suggested Ways to Get Started
+* Boxplot dos jogadores por país, identificar os outliers
+![Jogadores](https://github.com/lenon51/portfolio/blob/master/fifa/boxplot.png?raw=true)
 
-* **Find a data set to process** - a great place to start looking would be [Awesome Public Data Sets](https://github.com/awesomedata/awesome-public-datasets), [Kaggle Data Sets](https://www.kaggle.com/datasets), or the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php). A great new source is the [Google dataset search](https://toolbox.google.com/datasetsearch).
-* **Perform Preliminary Analysis** - use functions like `describe` to help guide you to the correct insight and data visualization. 
-* **Use the tools in your tool kit** - your knowledge of the different types of visualizations and when to use them should come in handy with this assignment.
-* **Consult documentation and resources provided** to better understand the tools you are using and how to accomplish what you want.
+* Os 10 primeiros países que tem o maior número de jogadores mais fortes
+![Folium](https://github.com/lenon51/portfolio/blob/master/fifa/country.png?raw=true)
 
-## Project Feedback + Evaluation
-
-* __Technical Requirements__: Did you deliver a project that met all the technical requirements? Given what the class has covered so far, did you build something that was reasonably complex?
-
-* __Creativity__: Did you add a personal spin or creative element into your project submission? Did you incorporate domain knowledge or unique perspective into your analysis.
-
-* __Code Quality__: Did you follow code style guidance and best practices covered in class?
-
-* __Total__: Your instructors will give you a total score on your project between:
-
-    **Score**|**Expectations**
-    -----|-----
-    0|Does not meet expectations
-    1|Meets expectations, good job!
-    2|Exceeds expectations, you wonderful creature, you!
-
-This will be useful as an overall gauge of whether you met the project goals, but __the more important scores are described in the specs above__, which can help you identify where to focus your efforts for the next project!
+* Jogadores mais fortes do jogo
+![Jogadores](https://github.com/lenon51/portfolio/blob/master/fifa/players.png?raw=true)
