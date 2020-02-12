@@ -26,27 +26,27 @@ A meta desse projeto é consultar todos os óbitos do ano de 2018 registrados no
 ## Visualizações
 
 * Quantidade de óbitos por cidade no ano de 2018
-![DataSus](https://github.com/lenon51/portfolio/blob/master/sptrans/g1.png?raw=true)
+![DataSus](https://github.com/lenon51/portfolio/blob/master/datasus/g1.png?raw=true)
 
 
 * Quantidade de óbitos por sexo e estado civil. É possível notar que homens casados morrem mais.
-![DataSus](https://github.com/lenon51/portfolio/blob/master/sptrans/g2.png?raw=true)
+![DataSus](https://github.com/lenon51/portfolio/blob/master/datasus/g2.png?raw=true)
 
 
 * Aqui um visão mais detalhada dos óbitos agrupado por CID e por sexo.
-![DataSus](https://github.com/lenon51/portfolio/blob/master/sptrans/g3g4.png?raw=true)
+![DataSus](https://github.com/lenon51/portfolio/blob/master/datasus/g3g4.png?raw=true)
 
 
 
 * Como é possível ver no gráfico anterior, a primeira causa morte em mulheres é infarto agudo do miocardio e a segunda causa morte é a diabetes no ano de 2018. O interessante desses dados é que a diabete pode levar a um infarto agudo do miocardio, entretanto no óbito constará que a mulher morreu de infarto e não da causa que levou a isso que no caso seria a diabete.
 Segue um artigo interessante do Drauzio Varella que ilustra essa explicação: <a href='https://drauziovarella.uol.com.br/doencas-cronicas/diabetes/por-que-diabetes-aumenta-risco-de-doencas-cardiovasculares/' target='_new'>https://drauziovarella.uol.com.br/doencas-cronicas/diabetes/por-que-diabetes-aumenta-risco-de-doencas-cardiovasculares/</a>
 Abaixo temos um gráfico agrupado por idade da primeira causa morte (esquerda) e a da segunda causa morte(direita) em mulheres
-![DataSus](https://github.com/lenon51/portfolio/blob/master/sptrans/g5g6.png?raw=true)
+![DataSus](https://github.com/lenon51/portfolio/blob/master/datasus/g5g6.png?raw=true)
 
 
 
 * Conforme gráfico anterior, a primeira causa morte em homens é infarto agudo do miocardio e a segunda causa morte é agressão por meio de disparo de outra arma de fogo ou de arma não especificada.
 Abaixo temos um gráfico agrupado por idade da primeira causa morte (esquerda) e a da segunda causa morte(direita) em homens
-![DataSus](https://github.com/lenon51/portfolio/blob/master/sptrans/g7g8.png?raw=true)
+![DataSus](https://github.com/lenon51/portfolio/blob/master/datasus/g7g8.png?raw=true)
 
 
