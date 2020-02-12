@@ -1,6 +1,6 @@
 ![Fifa Logo](https://github.com/lenon51/portfolio/blob/master/fifa/fifa-19.png?raw=true)
 
-# Projeto: Consultar a localização dos ônibus
+# Projeto: Consultar jogadores do jogo FIFA 19 da EASports
 
 ## Resumo
 
