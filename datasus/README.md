@@ -46,7 +46,10 @@ Abaixo temos um gráfico agrupado por idade da primeira causa morte (esquerda) e
 
 
 * Conforme gráfico anterior, a primeira causa morte em homens é infarto agudo do miocardio e a segunda causa morte é agressão por meio de disparo de outra arma de fogo ou de arma não especificada.
-Abaixo temos um gráfico agrupado por idade da primeira causa morte (esquerda) e a da segunda causa morte(direita) em homens
+Abaixo temos um gráfico agrupado por idade da primeira causa morte (direita) e a da segunda causa morte(esquerda) em homens
 ![DataSus](https://github.com/lenon51/portfolio/blob/master/datasus/g7g8.png?raw=true)
+
+* Segue link do Tableau para um gráfico mais interativo:
+https://public.tableau.com/profile/lenon6986#!/vizhome/ProjetoTableau2/CidadeMaior
 
 
