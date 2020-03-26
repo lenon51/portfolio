@@ -16,7 +16,7 @@ Caso queria discutir sobre algum, esteja disposto a me procurar. Seguem abaixo m
 * Linkedin<br>
 <a href='https://www.linkedin.com/in/lenonguimaraes/'>https://www.linkedin.com/in/lenonguimaraes/</a> <br>
 
-*E-mail<br>
+* E-mail<br>
 lenon.guimaraes@gmail.com
 <br>
 <br>
