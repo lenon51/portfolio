@@ -29,11 +29,11 @@ A meta desse projeto foi criar uma conta no Instagram e interagir com usuários.
 ## Visualizações
 
 * A ideia partiu desse artigo do código fonte
-!<a href='https://www.codigofonte.com.br/artigos/ele-usou-python-aprendizado-de-maquina-e-instagram-para-comer-de-graca-em-nova-york' target='_new'>https://github.com/lenon51/portfolio/blob/master/instagram/ideia.png?raw=true</a>
+![Ideia](https://github.com/lenon51/portfolio/blob/master/instagram/ideia.png?raw=true)
 
 * Consultar e salvar fotos
 Como ponto de partida utilizei hashtags relacionadas a cerveja para salvar as fotos para postar e comentar
-!(https://github.com/lenon51/portfolio/blob/master/instagram/Consultar_imagem.gif?raw=true)
+![Imagem](https://github.com/lenon51/portfolio/blob/master/instagram/Consultar_imagem.gif?raw=true)
 
 
 * Quantidade de ônibus chegando/saindo das estações de metrô
