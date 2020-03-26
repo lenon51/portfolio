@@ -32,16 +32,15 @@ A meta desse projeto foi criar uma conta no Instagram e interagir com usuários.
 ![Ideia](https://github.com/lenon51/portfolio/blob/master/instagram/01_ideia.png?raw=true)
 
 * Consultar e salvar fotos<br>
-Após salvar as fotos, acesso cada imagem para coletar os dados como: curtidas, descrição, usuário que postou, usuários marcados na imagem, data de postagem e se é imagem ou vídeo. Como ponto de partida utilizei hashtags relacionadas a cerveja para salvar as fotos para postar e comentar
+Após salvar as fotos, acesso cada imagem para coletar os dados como: curtidas, descrição, usuário que postou, usuários marcados na imagem, data de postagem e se é imagem ou vídeo. Como ponto de partida utilizei hashtags relacionadas a cerveja para salvar as fotos para postar e comentar.
 ![Imagem](https://github.com/lenon51/portfolio/blob/master/instagram/02_Consultar_imagem.gif?raw=true)
 
-* Curtir e comentar as fotos
+* Curtir e comentar as fotos<br>
 ![Curtir](https://github.com/lenon51/portfolio/blob/master/instagram/04_Comentar_imagem.gif?raw=true)
 
 * Consultar e salvar seguidores do Instagram das cervejarias<br>
-Foram escolhidas 5 cervejarias artesanais de Santos/SP para salvar os usuários:<br>
--- Everbrew, Demonho, Cais, Infected e Bicudo<br>
-![Seguidores](https://github.com/lenon51/portfolio/blob/master/sptrans/05_Consultar_seguidores.gif?raw=true)
+Foram escolhidas 5 cervejarias artesanais de Santos/SP para salvar os usuários: Everbrew, Demonho, Cais, Infected e Bicudo<br>
+![Seguidores](https://github.com/lenon51/portfolio/blob/master/instagram/05_Consultar_seguidores.gif?raw=true)
 
 * Seguir e desseguir<br>
 Antes de seguir e desseguir os usuários, é acessado o perfil dos usuários e os seguintes dados são salvos: quantidade de publicações, quantidade de seguidores, quantidade de contas seguindo, através do nome do usuário avalio se é homem/mulher, se o perfil é público ou privado e a conta origem da cervejaria.<br>
