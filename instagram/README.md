@@ -1,32 +1,39 @@
-![Untappd Logo](https://untappd.akamaized.net/assets/v3/images/untappd-logo-2@2x.png)
+![Instagram Logo](https://github.com/lenon51/portfolio/blob/master/instagram/logo_instagram.png?raw=true)
 
-# Projeto: Consultar a localização dos ônibus
+# Projeto: Instagram
 
 ## Resumo
 
-A meta desse projeto é consultar todos os ônibus que chegam e partem dos metrôs. Para isso foi utilizada a API que a SPTrans disponibiliza para consultar a localização dos ônibus.
+A meta desse projeto foi criar uma conta no Instagram e interagir com usuários. Como base para o desenvolvimento do projeto utilizei o artigo que mencionou o projeto de Chris Buetti (https://www.codigofonte.com.br/artigos/ele-usou-python-aprendizado-de-maquina-e-instagram-para-comer-de-graca-em-nova-york).
 
 ---
 
 ## Lógica
 
-* Consultar todas as linhas de metrô;
-* Consultar o letreiro dos ônibus que tem como destino ou partida as estações de metrô.
-* Criar visualizações para representar esses dados de forma intuitiva.
+* Consultar e salvar fotos
+* Curtir e comentar
+* Consultar e salvar seguidores do Instagram das cervejarias
+* Seguir e desseguir
+* Postar
+* Assistir stories
 
 ## Ferramentas
 * ** ``python`` **
-* ** ``folium`` **
-* ** ``api sptrans`` **
+* ** ``selenium`` **
+* ** ``machine learning`` **
+* ** ``instagram`` **
+* ** ``opencv`` **
+* ** ``mysql`` **
 
 
 ## Visualizações
 
-* Quantidade de ônibus chegando/saindo das estações de metrô agrupados pela cor da linha do metrô
-![Folium](https://github.com/lenon51/portfolio/blob/master/sptrans/qtd_linha_metro.png?raw=true)
+* A ideia partiu desse artigo do código fonte
+!<a href='https://www.codigofonte.com.br/artigos/ele-usou-python-aprendizado-de-maquina-e-instagram-para-comer-de-graca-em-nova-york' target='_new'>https://github.com/lenon51/portfolio/blob/master/instagram/ideia.png?raw=true</a>
 
-* Localização de todos os ônibus online
-![Folium](https://github.com/lenon51/portfolio/blob/master/sptrans/folium.png?raw=true)
+* Consultar e salvar fotos
+Como ponto de partida utilizei hashtags relacionadas a cerveja para salvar as fotos para postar e comentar
+!(https://github.com/lenon51/portfolio/blob/master/instagram/Consultar_imagem.gif?raw=true)
 
 
 * Quantidade de ônibus chegando/saindo das estações de metrô
