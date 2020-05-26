@@ -1,0 +1,5 @@
+streamlit==0.60.0
+matplotlib==3.2.1
+numpy==1.18.1
+cv2==4.2.0
+pydicom==1.4.2
